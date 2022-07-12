@@ -6,7 +6,7 @@ export default createConfig({
   name: 'default',
   title: 'tiktok-backend',
 
-  projectId: '11hchdwn',
+  projectId: 'nzkolzt9',
   dataset: 'production',
 
   plugins: [deskTool()],

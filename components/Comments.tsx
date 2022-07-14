@@ -32,10 +32,10 @@ const Comments = ({ comment, setComment, addComment, comments, isPostingComment 
           comments?.map((item: IComment, idx: number) => (
             <>
               {allUsers?.map(
-                (user: IUser) =>
+                (user: IUser, index: number) =>
                   user._id === (item.postedBy._ref || item.postedBy._id) && (
                     <div className=' p-2 items-center' key={idx}>
-                      <Link href={`/profile/${user._id}`}>
+                      <Link href={`/profile/${user._id}`} key={index}>
                         <div className='flex items-start gap-3'>
                           <div className='w-12 h-12'>
                             <Image

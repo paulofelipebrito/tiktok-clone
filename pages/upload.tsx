@@ -40,6 +40,7 @@ const Upload = () => {
           filename: selectedFile.name,
         })
         .then((data) => {
+          console.log(data)
           setVideoAsset(data);
           setLoading(false);
         });
@@ -50,6 +51,7 @@ const Upload = () => {
   };
 
   const handlePost = async () => {
+    console.log(videoAsset?._id)
     if (caption && videoAsset?._id && topic) {
       setSavingPost(true);
 

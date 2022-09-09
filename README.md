@@ -217,4 +217,4 @@ Use this space to list resources you find helpful and would like to give credit 
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com 
 [Typescript-url]: (https://www.typescriptlang.org)
-[deploy-url]: tiktok-clone-demo.vercel.app
+[deploy-url]: https://tiktok-clone-demo.vercel.app
